@@ -11,4 +11,4 @@ However, the size of the whole project surpasses 5GB of data, which makes it ext
 
 The "Progress Notes" file also displays the development process I went through and what I accomplished during each work session. 
 
-Infected was my first project working with Unreal Engine and it mainly served as an introductory project for me to get used to the different capabilites of Unreal Engine as well as the resources it offers. This project was based on SmartPoly's tutorial.
+Infected was my first project working with Unreal Engine and it mainly served as an introductory project for me to get used to the different capabilites of Unreal Engine as well as the resources it offers. Credit to SmartPoly.
