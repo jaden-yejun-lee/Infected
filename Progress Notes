@@ -1,4 +1,4 @@
-Beginning/Set up
+# Beginning/Set up
   - Set main body material to human texture/color by connecting textures to material → giving arms and hands a human look
   - Used blendspace to blend the idle animation and the run animation
     - Plays idle animation when user stops moving and run animation when user starts to move
@@ -6,7 +6,7 @@ Beginning/Set up
   - Created State Space connecting Idle/Run → IdleToAim → Aim → AimToIdle → Idle/Run
     - Configuring these blueprints allowed me to aim using sights when holding right mouse button
 
-Completed Weapon Firing/Zombie Setup
+# Completed Weapon Firing/Zombie Setup
   - Added recoil animation/sound when firing
   - Made smoother animations for hands when shooting
   - Added Zombie character with walking/running animations
@@ -14,18 +14,18 @@ Completed Weapon Firing/Zombie Setup
     - Used PawnSensing so that zombie walks and once zombie senses player, zombie starts running
   - Added zombie attack animation when zombie reaches player
 
-Line Trace
+# Line Trace
   - Added crosshair to middle of screen using crosshair widget
   - Created visible line trace according to crosshair/center of screen
 
-Zombie Hit Animation + Damage
+# Zombie Hit Animation + Damage
   - Added zombie damage
     - Zombie starts off at 100 health and every shot that hits zombie, -20 health
     - Headshots do -50 health
   - Binded zombie hit animation to waistup only so that zombie’s feet stay walking while getting hit
   - When bullet hits zombie, blood fx. When bullet hits non-zombie object (terrain), asphalt fx
 
-Zombie Damages Player + Custom Map
+# Zombie Damages Player + Custom Map
   - Every time zombie attacks player and is in range of collision, player takes -20 health
   - Incorporated health bar that goes down based on damage taken
   - Created a custom bridge map to serve as main map
@@ -33,11 +33,11 @@ Zombie Damages Player + Custom Map
     - Fixed mesh collisions for all props
   - Adjusted sun position/brightness to provide a sunset kind of vibe to map
 
-GameMode Class
+# GameMode Class
   - Created a gamemode class
     - Spanws equal number of zombies on opposite sides of map depending on game mode using “waves” of zombies
 
-Waves and UI
+# Waves and UI
   - Added waves based gameplay logic
     - Every wave generates 4 times wave number of zombies split equally on each side
   - Created UI to show current wave and zombies left in current wave
@@ -47,7 +47,7 @@ Waves and UI
   - Added health regeneration so player regenerates health if not taken damage for some time
   - Added blood overlay that pulses whenever player’s health drops below 50%
 
-Ammo and Main Menu
+# Ammo and Main Menu
   - Added ammo in gameplay and UI
     - Current ammo / total ammo
   - Press r to reload
